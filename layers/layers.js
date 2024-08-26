@@ -16,7 +16,7 @@ var wms_layers = [];
         });
 var lyr_Localidad_Storymap_RolMujer_1 = new ol.layer.Tile({
                             source: new ol.source.TileWMS(({
-                              url: "https://geoserver.scrd.gov.co/geoserver/wms",
+                              url: "https://geoserver.scrd.gov.co/geoserver/Investigacion_Cultured_Maps/wms",
     attributions: ' ',
                               params: {
                                 "LAYERS": "Investigacion_Cultured_Maps:Localidad_Storymap_RolMujer",
@@ -31,7 +31,7 @@ var lyr_Localidad_Storymap_RolMujer_1 = new ol.layer.Tile({
               wms_layers.push([lyr_Localidad_Storymap_RolMujer_1, 0]);
 var lyr_DistritosCreativos_2 = new ol.layer.Tile({
                             source: new ol.source.TileWMS(({
-                              url: "https://geoserver.scrd.gov.co/geoserver/wms",
+                              url: "https://geoserver.scrd.gov.co/geoserver/Investigacion_Cultured_Maps/wms",
     attributions: ' ',
                               params: {
                                 "LAYERS": "Investigacion_Cultured_Maps:DistritosCreativos",
